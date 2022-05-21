@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1140px){
+    html {
+        font-size: 55%
+    }
+    #header-nav {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+   
+    #avatar {
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    #header2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .header2-text{
+        text-align: center;
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+    
+    #header2 {
+        height: 100vw;
+    }
+    
+    .nav-bar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    body {
+        margin: 0;
+    }
+    section#header2 {
+        height: 100vh;
+        margin-top: 2em;
+    }
+    .header2-text h2 {
+        margin: 1em auto;
+        font-size: 4rem;
+}
+
+.header2-text h3 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.header2-text h4 {
+    font-size: 1.5rem;
+}
+
+.sobremim-text {
+    flex: 100%;
+}
+
+#section-sobremim h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+#section-sobremim p {
+    line-height: 1.4em;
+    text-indent: 1em;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 2rem;
+    text-align: justify;
+}
+
+#section-sobremim h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-left: 0;
+}
+
+ul#ul-sobremim li{
+    width: 100%;
+    text-align: center;
+    line-height: 1.4em;
+    padding: 1rem;
+    margin-bottom: 1em;
+    text-indent: 1em;
+    margin-left: 0;
+}
+
+#h2menu {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+#section-fale h2{
+    font-size: 2em;
+    text-align: center;
+    margin-left: 0;
+}
+.estudo2-text {
+    padding: 0;
+}
+
+
+#estudo1 img {
+    width: 100%;
+    margin: 2rem;
+}
+#estudo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+}
+.estudo1-text h3 {
+    text-align: center;
+    margin: 1.5rem;
+}
+.estudo1-text p {
+    width: 100%;
+}
+
+#estudo2 img {
+    width: 100%;
+    margin: 2rem;
+}
+
+#estudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.estudo2-text h3 {
+    text-align: center;
+    margin: 1.5rem;
+}
+.estudo2-text p {
+    width: 100%;
+}
+
+#estudo3 img {
+    margin: 2rem;
+    width: 100%
+}
+
+#estudo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.estudo3-text h3 {
+    text-align: center;
+    margin: 1.5rem;
+}
+.estudo3-text p {
+    width: 100%;
+}
+
+
+
+}
