@@ -284,6 +284,7 @@ section#section-casos {
 #form textarea {
     resize: vertical;
     overflow: auto;
+    outline: none;
 }
 
 #form label{
