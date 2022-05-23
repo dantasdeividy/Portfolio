@@ -313,6 +313,10 @@ section#section-casos {
     cursor: pointer;
 }
 
+#form button:hover {
+    background-color: #53869c;
+}
+
 footer {
     display: flex;
     flex-direction: column;
