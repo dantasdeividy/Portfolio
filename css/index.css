@@ -273,11 +273,17 @@ section#section-casos {
 #form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
     background-color: var(--cor-laranja2);
     padding: 2em;
     border-radius: 20px;
+    
+}
+
+#form textarea {
+    resize: vertical;
+    overflow: auto;
 }
 
 #form label{
@@ -288,6 +294,8 @@ section#section-casos {
 
 #form input {
     margin-bottom: 1em;
+    outline: 0;
+    padding: 5px;
 }
 
 #form button {
@@ -301,7 +309,9 @@ section#section-casos {
     color: var(--cor-texto);
     text-transform: lowercase;
     padding: 2px;
+    cursor: pointer;
 }
+
 footer {
     display: flex;
     flex-direction: column;
