@@ -316,12 +316,30 @@ section#section-casos {
 #form button:hover {
     background-color: #53869c;
 }
+#curriculo {
+    display: flex;
+    align-items: center;
+}
+#curriculo a{
+    text-align: center;
+    color: var(--cor-texto);
+    background-color: var(--cor-laranja2);
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#curriculo a:hover{
+    background-color: var(--cor-laranja);
+}
 
 footer {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 2.5rem;
 }
 
 #redes img{
